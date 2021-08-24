@@ -23,6 +23,10 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.App-header h1{
+  font-size: 2em;
+  font-weight: bold;
+}
 
 .App-link {
   color: #61dafb;
@@ -35,4 +39,22 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.movie-list{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.movie-list> *{
+  margin-top: 50px;
+}
+.filter{
+  width: 100%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
